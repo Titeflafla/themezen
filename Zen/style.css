@@ -1,0 +1,149 @@
+@charset "utf-8";
+
+/* balise générale */
+body {
+	font-family: "verdana", "arial", "helvetica", sans-serif;
+	color: #242424; 
+	font-size: 12px;  
+	font-weight: bold;
+	margin: 20px auto 10px auto;
+	background-color: #242424;
+  	background-image: url(images/bg.png);
+   background-repeat: repeat;
+   background-attachment: fixed;
+   background-position: top left;
+} 
+
+::selection {
+	background: #A2A39C;
+	color: #494949;
+}
+::-moz-selection {
+	background: #A2A39C;
+	color: #494949;
+}
+::-webkit-selection {
+	background: #A2A39C;
+	color: #494949;
+}
+
+a:link {
+   color: #383636;
+}
+
+a:active {
+   color: #383636;
+	text-decoration: none;
+}
+
+a:visited {
+   color: #383636;
+}
+
+a:hover {
+   color: #111111;
+	text-decoration: none;
+}
+
+a img {
+	border: 0px;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+.sidebar {
+	width: 240px;
+	padding-top: 10px;
+}
+.content {
+	padding: 10px 0;
+	width: 720px;
+}
+.content_full {
+	padding: 10px 0;
+	width: 960px;
+}
+.right {
+	float:right;
+}
+.left {
+	float:left;
+}
+
+/* Block */
+.block_gauche {
+	display:block;
+	border: 2px solid #130C07;
+	color:#242424;
+	background: url(images/mbg.png);
+	border-radius:10px;
+}
+.header_block_gauche {
+	display:block;
+	border-bottom: 2px solid #130C07;
+	height:25px;
+	background: url(images/fond_tab.png);
+	margin-bottom: 5px;
+	border-top-left-radius:9px;
+	border-top-right-radius:9px;
+}
+.block_centre {
+	border: 2px solid #130C07;width:98%;
+	color:#242424;
+	background: url(images/mbg.png);
+	border-radius:10px;
+}
+.header_block_centre {
+	border-bottom: 2px solid #130C07;
+	height:25px;
+	background: url(images/fond_tab.png);
+	border-top-left-radius:9px;
+	border-top-right-radius:9px;
+}
+.block_inner {
+   display: table-cell;
+	vertical-align:middle;
+	height:25px;
+}
+
+hr{
+	background-color: #130C07;
+	border: 1px solid #130C07;
+}
+
+.cleared{
+  display:block;
+  clear: both;
+  float: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 0;
+  height:0;
+  overflow:hidden;
+}
+
+textarea 	{
+	border: 1px solid #150E0A;
+	color: #000000; 
+	background: #C8CAC5;
+   background-image:-webkit-linear-gradient(top,#DCDCDC,#C8CAC5);
+	background-image:-moz-linear-gradient(top,#DCDCDC,#C8CAC5);
+	background-image:-moz-linear-gradient(top,#DCDCDC,#C8CAC5);
+	background-image:linear-gradient(top,#DCDCDC,#C8CAC5); 
+	padding-left: 5px;
+}
+
+button{
+	border: 0px;
+}
+select {
+	border: 1px solid #130C07;
+	color: #130C07;
+	background-color: #CDCDCD; 
+	text-decoration: none;
+	text-align: left;
+	min-width: 80px;
+}
